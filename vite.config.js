@@ -1,9 +1,8 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import tailwindcss from '@tailwindcss/vite';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: "/",
-  plugins: [react(), tailwindcss()],
-});
+  plugins: [react()],
+  base: '/', // Change this to '/lee-hanhee.github.io/' for GitHub Pages production build
+}) 
