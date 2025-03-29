@@ -2,8 +2,6 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
-import About from './pages/About'
-import CV from './pages/CV'
 import Experiences from './pages/Experiences'
 import ProjectDetail from './pages/ProjectDetail'
 
@@ -14,8 +12,6 @@ function App() {
       <main className="flex-grow container-custom py-8">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/cv" element={<CV />} />
           <Route path="/experiences" element={<Experiences />} />
           <Route path="/project/:projectId" element={<ProjectDetail />} />
         </Routes>

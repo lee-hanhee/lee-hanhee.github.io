@@ -14,11 +14,8 @@ function Navbar() {
         <div className="flex items-center space-x-6">
           {/* TODO: Add navigation links to CV, About Me, Experiences */}
           {/* Example: */}
-          <Link to="/cv" className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
+          <Link to="/assets/HanheeLee_CV_Mar_29_2025.pdf" className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
             CV
-          </Link>
-          <Link to="/about" className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
-            About Me
           </Link>
           <Link to="/experiences" className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
             Experiences
