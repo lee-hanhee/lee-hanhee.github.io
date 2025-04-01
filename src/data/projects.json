@@ -1,0 +1,61 @@
+[
+  {
+    "id": "fuel-cell",
+    "title": "Fuel Cell Optimization Platform",
+    "description": "A full-stack application for simulating and optimizing fuel cell performance with an interactive dashboard for visualizing results.",
+    "tags": ["Full Stack", "ML", "React", "Python", "TensorFlow"],
+    "image": "https://images.unsplash.com/photo-1603642546033-a371db95bc42?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "githubUrl": "https://github.com/username/fuel-cell-optimizer",
+    "liveUrl": "https://fuel-cell-optimizer.example.com",
+    "markdownFile": "fuel-cell.md"
+  },
+  {
+    "id": "study-tool",
+    "title": "AI-Powered Study Tool",
+    "description": "An intelligent application that uses natural language processing to generate practice questions and provide personalized learning recommendations.",
+    "tags": ["ML", "React", "Python", "NLP"],
+    "image": "https://images.unsplash.com/photo-1610484826967-09c5720778c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "githubUrl": "https://github.com/username/study-tool",
+    "liveUrl": "https://ai-study-tool.example.com",
+    "markdownFile": "study-tool.md"
+  },
+  {
+    "id": "e-commerce",
+    "title": "E-Commerce Platform",
+    "description": "A complete e-commerce solution with product listings, shopping cart functionality, user authentication, and payment processing.",
+    "tags": ["Full Stack", "React", "Node.js", "MongoDB"],
+    "image": "https://images.unsplash.com/photo-1523475496246-9e3d81c80dc4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "githubUrl": "https://github.com/username/e-commerce",
+    "liveUrl": "https://modern-shop.example.com",
+    "markdownFile": "e-commerce.md"
+  },
+  {
+    "id": "data-visualization",
+    "title": "Interactive Data Visualization Dashboard",
+    "description": "A dashboard for visualizing complex datasets with customizable charts, filters, and real-time updates.",
+    "tags": ["Full Stack", "React", "D3.js", "Express"],
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "githubUrl": "https://github.com/username/data-viz",
+    "liveUrl": "https://data-viz-dashboard.example.com",
+    "markdownFile": "data-viz.md"
+  },
+  {
+    "id": "neural-network",
+    "title": "Neural Network from Scratch",
+    "description": "A neural network implementation built from scratch using only NumPy, with visualizations to explain the underlying concepts.",
+    "tags": ["ML", "Python", "Coursework"],
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "githubUrl": "https://github.com/username/neural-network",
+    "markdownFile": "neural-network.md"
+  },
+  {
+    "id": "algo-visualizer",
+    "title": "Algorithm Visualizer",
+    "description": "An interactive web application that visualizes various algorithms including sorting, pathfinding, and graph algorithms.",
+    "tags": ["Coursework", "React", "JavaScript"],
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "githubUrl": "https://github.com/username/algo-visualizer",
+    "liveUrl": "https://algorithm-viz.example.com",
+    "markdownFile": "algo-visualizer.md"
+  }
+]
