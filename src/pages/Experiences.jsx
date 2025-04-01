@@ -5,10 +5,10 @@ const Experiences = () => {
   const experiences = [
     {
       id: 1,
-      title: "Senior Software Engineer",
-      company: "Tech Innovation Inc.",
-      location: "San Francisco, CA",
-      period: "Jan 2022 - Present",
+      title: "Software Engineer Intern",
+      company: "Savi Finance",
+      location: "Toronto, ON",
+      period: "January - April 2025",
       description:
         "Lead development of full-stack applications using React, Node.js, and AWS. Mentored junior developers and implemented CI/CD pipelines to improve deployment efficiency.",
       responsibilities: [
@@ -20,10 +20,10 @@ const Experiences = () => {
     },
     {
       id: 2,
-      title: "Machine Learning Engineer",
-      company: "Data Insights Corp.",
-      location: "Seattle, WA",
-      period: "Mar 2020 - Dec 2021",
+      title: "Applied Machine Learning Researcher",
+      company: "National University of Singapore",
+      location: "Singapore",
+      period: "May - August 2024",
       description:
         "Developed and deployed machine learning models for predicting customer behavior and business trends. Worked with large datasets and created data pipelines.",
       responsibilities: [
@@ -31,21 +31,6 @@ const Experiences = () => {
         "Created ETL pipelines for processing large datasets",
         "Developed API endpoints for model inference",
         "Collaborated with data scientists to improve model accuracy",
-      ],
-    },
-    {
-      id: 3,
-      title: "Software Developer",
-      company: "Web Solutions LLC",
-      location: "Boston, MA",
-      period: "Jun 2018 - Feb 2020",
-      description:
-        "Developed responsive web applications and implemented RESTful APIs. Worked in an agile environment with daily stand-ups and sprint planning.",
-      responsibilities: [
-        "Built frontend components using React and Redux",
-        "Implemented backend services with Node.js and Express",
-        "Created and maintained database schemas and queries",
-        "Participated in code reviews and pair programming sessions",
       ],
     },
   ];

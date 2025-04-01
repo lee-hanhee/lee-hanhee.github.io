@@ -5,7 +5,6 @@ import About from "./pages/About";
 import CV from "./pages/CV";
 import Experiences from "./pages/Experiences";
 import ProjectDetail from "./pages/ProjectDetail";
-import "./App.css";
 
 function App() {
   return (
