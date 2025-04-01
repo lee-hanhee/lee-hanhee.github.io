@@ -1,28 +1,32 @@
 # Hanhee Lee's Portfolio
 
-This is my professional developer portfolio website, showcasing my projects, skills, and experience.
+A modern, responsive portfolio website showcasing my projects, experience, and skills as a software developer.
 
 ## 🚀 Live Demo
 
 Visit the live site at [https://lee-hanhee.github.io](https://lee-hanhee.github.io)
 
-## 🛠️ Built With
+## 🛠️ Technology Stack
 
-- **React** - Frontend library
-- **Vite** - Build tool
-- **Tailwind CSS** - Styling
-- **React Router** - Page routing
-- **Framer Motion** - Animations
-- **React Markdown** - Markdown rendering
+- **Frontend Framework**: React with hooks
+- **Build Tool**: Vite for fast development and optimized production builds
+- **Styling**: Tailwind CSS with custom theme configuration
+- **Routing**: React Router with hash routing for GitHub Pages compatibility
+- **Animations**: Framer Motion for smooth transitions and effects
+- **Markdown Rendering**: React Markdown with syntax highlighting
+- **Icons**: Lucide React for consistent and accessible iconography
+- **Deployment**: GitHub Pages with automated deployment workflow
 
-## ✨ Features
+## ✨ Key Features
 
-- Responsive design for all devices
-- Dark/light mode with system preference detection
-- Project filtering by category
-- Markdown-based project details
-- PDF resume viewing/download
-- Clean and modern UI
+- **Responsive Design**: Fully responsive layout that works seamlessly on devices of all sizes
+- **Dark/Light Mode**: Theme switching with system preference detection and localStorage persistence
+- **Project Filtering**: Filter projects by category (Full Stack, ML, Coursework)
+- **Project Showcase**: Detailed project pages with images, tech stack tags, and markdown content
+- **Experiences Timeline**: Interactive timeline showcasing professional experience
+- **PDF Resume**: Embedded CV with download option
+- **Optimized Performance**: Fast loading times and smooth interactions
+- **Accessibility**: Designed with accessibility in mind, including proper contrast and keyboard navigation
 
 ## 🚀 Getting Started
 
@@ -57,22 +61,77 @@ Visit the live site at [https://lee-hanhee.github.io](https://lee-hanhee.github.
 ## 📂 Project Structure
 
 ```
-/public            # Static assets and project markdown files
+/public            # Static assets and markdown files
   /projects        # Markdown files for project details
   /resume.pdf      # Downloadable resume
 
 /src
-  /assets          # Images, icons, etc.
+  /assets          # Images, icons, and other static assets
   /components      # Reusable UI components
-  /data            # JSON data for projects
+    /Layout.jsx    # Main layout component with navigation
+    /Navbar.jsx    # Navigation component
+    /Footer.jsx    # Footer component
+    /ProjectCard.jsx  # Card component for projects
+    /MarkdownRenderer.jsx  # Component for rendering markdown
+  /data            # JSON data for projects and experiences
   /hooks           # Custom React hooks
+    /useTheme.js   # Hook for managing dark/light theme
   /pages           # Page components
+    /Home.jsx      # Home page with project listing
+    /About.jsx     # About page with personal info
+    /CV.jsx        # CV/Resume page
+    /Experiences.jsx  # Experience timeline
+    /ProjectDetail.jsx  # Detailed project view
 ```
+
+## 🔧 Customization
+
+### Adding Projects
+
+Add new projects by updating the `src/data/projects.json` file:
+
+```json
+{
+  "id": "project-id",
+  "title": "Project Title",
+  "description": "Project description",
+  "tags": ["React", "Node.js", "MongoDB"],
+  "category": ["Full Stack"],
+  "image": "https://example.com/image.jpg",
+  "githubUrl": "https://github.com/username/project",
+  "liveUrl": "https://example.com",
+  "markdownFile": "project.md"
+}
+```
+
+Then add a corresponding markdown file in `public/projects/`.
+
+### Updating Experience
+
+Modify the experience timeline by updating `src/data/experiences.json`.
 
 ## 🚢 Deployment
 
-This site is configured for GitHub Pages deployment. Simply push to the main branch and GitHub Actions will handle the deployment automatically.
+This site is configured for GitHub Pages deployment. The deployment process is automated through GitHub Actions:
+
+1. Push changes to the main branch
+2. GitHub Actions workflow will build the project
+3. The built site is automatically deployed to GitHub Pages
+
+Alternatively, you can deploy manually:
+
+```bash
+npm run deploy
+```
 
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## �� Contact
+
+Feel free to reach out if you have any questions or just want to connect:
+
+- Email: your.email@example.com
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [Your GitHub](https://github.com/yourusername)
