@@ -104,15 +104,28 @@ const ProjectDetail = () => {
               {project.title}
             </h1>
 
+            <div className="flex flex-wrap gap-2 mb-4">
+              {project.category &&
+                project.category.map((cat, index) => (
+                  <span
+                    key={`category-${index}`}
+                    className="px-3 py-1 text-sm font-medium rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 transition-colors duration-300"
+                  >
+                    {cat}
+                  </span>
+                ))}
+            </div>
+
             <div className="flex flex-wrap gap-2 mb-6">
-              {project.tags.map((tag, index) => (
-                <span
-                  key={index}
-                  className="px-3 py-1 text-sm font-medium rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 transition-colors duration-300"
-                >
-                  {tag}
-                </span>
-              ))}
+              {project.tags &&
+                project.tags.map((tag, index) => (
+                  <span
+                    key={`tag-${index}`}
+                    className="px-2 py-1 text-xs font-medium rounded-full bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-100 transition-colors duration-300"
+                  >
+                    {tag}
+                  </span>
+                ))}
             </div>
 
             {project.image && (

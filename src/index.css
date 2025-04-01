@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 dark:bg-gray-950 transition-colors duration-300;
+  }
+
+  /* Add global dark mode styles */
+  .dark .prose p,
+  .dark .prose li,
+  .dark .prose ul,
+  .dark .prose ol,
+  .dark .prose blockquote {
+    @apply text-gray-200;
+  }
+
+  .dark .prose h1,
+  .dark .prose h2,
+  .dark .prose h3,
+  .dark .prose h4,
+  .dark .prose strong {
+    @apply text-gray-100;
+  }
+
+  .dark .prose code:not(pre code) {
+    @apply bg-gray-800 text-gray-100;
+  }
+
+  .dark .prose a {
+    @apply text-blue-400 hover:text-blue-300;
+  }
+
+  .dark .prose blockquote {
+    @apply border-l-4 border-gray-700 text-gray-300;
+  }
+
+  .dark .prose table {
+    @apply border-gray-700;
+  }
+
+  .dark .prose th {
+    @apply bg-gray-800 text-gray-200 border-gray-700;
+  }
+
+  .dark .prose td {
+    @apply text-gray-200 border-gray-700;
+  }
+}

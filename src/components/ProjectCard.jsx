@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import { ExternalLink, Github } from "lucide-react";
 
 const ProjectCard = ({ project }) => {
-  const { id, title, description, tags, image, githubUrl, liveUrl } = project;
+  const { id, title, description, tags, category, image, githubUrl, liveUrl } =
+    project;
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -27,13 +28,25 @@ const ProjectCard = ({ project }) => {
           {description}
         </p>
 
+        <div className="flex flex-wrap gap-2 mb-4">
+          {tags &&
+            tags.map((tag, index) => (
+              <span
+                key={index}
+                className="px-2 py-1 text-xs font-medium rounded-full bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-100 transition-colors duration-300"
+              >
+                {tag}
+              </span>
+            ))}
+        </div>
+
         <div className="flex space-x-3">
           {githubUrl && (
             <a
               href={githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-300"
+              className="flex items-center text-gray-700 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-300"
               aria-label="View GitHub repository"
             >
               <Github size={16} className="mr-1" />
@@ -46,7 +59,7 @@ const ProjectCard = ({ project }) => {
               href={liveUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-300"
+              className="flex items-center text-gray-700 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-300"
               aria-label="View live demo"
             >
               <ExternalLink size={16} className="mr-1" />

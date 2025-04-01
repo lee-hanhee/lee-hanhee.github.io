@@ -33,7 +33,7 @@ const Home = () => {
       setFilteredProjects(projects);
     } else {
       const filtered = projects.filter((project) =>
-        project.tags.includes(activeFilter)
+        project.category.includes(activeFilter)
       );
       setFilteredProjects(filtered);
     }

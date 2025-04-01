@@ -4,19 +4,19 @@ const Footer = () => {
   const socialLinks = [
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/hanheelee",
+      url: "https://linkedin.com/in/lee-hanhee",
       icon: Linkedin,
       ariaLabel: "Visit Hanhee Lee's LinkedIn profile",
     },
     {
       name: "GitHub",
-      url: "https://github.com/hanheelee",
+      url: "https://github.com/lee-hanhee",
       icon: Github,
       ariaLabel: "Visit Hanhee Lee's GitHub profile",
     },
     {
       name: "Email",
-      url: "mailto:hanhee.lee@example.com",
+      url: "mailto:hanheeeng.lee@mail.utoronto.ca",
       icon: Mail,
       ariaLabel: "Send an email to Hanhee Lee",
     },
