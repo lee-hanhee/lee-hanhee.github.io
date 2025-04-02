@@ -14,13 +14,6 @@ const About = () => {
             About Me
           </h1>
 
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8 mb-8 transition-colors duration-300">
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 transition-colors duration-300">
-              Hello! I'm Hanhee Lee, a 3rd year undergraduate student at the University of Toronto. Currently, I'm working on the EngSci Cheatcode project to help EngSci students succeed and be able to secure internships rather 
-              than stuggle with the course load. 
-            </p>
-          </div>
-
           <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100 transition-colors duration-300">
             Education
           </h2>

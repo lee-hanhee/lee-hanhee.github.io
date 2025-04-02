@@ -9,10 +9,8 @@ const Experiences = () => {
       company: "Savi Finance",
       location: "Toronto, ON",
       period: "January - April 2025",
-      description:
-        "",
-      responsibilities: [
-      ],
+      description: "",
+      responsibilities: [],
     },
     {
       id: 2,
@@ -20,10 +18,26 @@ const Experiences = () => {
       company: "National University of Singapore",
       location: "Singapore",
       period: "May - August 2024",
-      description:
-        "",
-      responsibilities: [
-      ],
+      description: "",
+      responsibilities: [],
+    },
+    {
+      id: 2,
+      title: "VP Content",
+      company: "Engineers Without Borders",
+      location: "Toronto, ON",
+      period: "September 2023 - April 2024",
+      description: "",
+      responsibilities: [],
+    },
+    {
+      id: 2,
+      title: "Lifeguard \& Swim Instructor",
+      company: "YMCA",
+      location: "Chatham, ON",
+      period: "September 2021 - August 2023",
+      description: "",
+      responsibilities: [],
     },
   ];
 

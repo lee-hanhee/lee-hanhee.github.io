@@ -54,8 +54,8 @@ const Home = () => {
             Hi, I'm Hanhee Lee
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto transition-colors duration-300">
-            A software developer passionate about building useful applications
-            and solving complex problems.
+            Third-year Machine Intelligence student at the University of Toronto
+            passionate about building applications that merge AI with real-world utility.
           </p>
         </motion.div>
 
