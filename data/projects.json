@@ -1,67 +1,79 @@
 [
   {
-    "id": "fuel-cell",
-    "title": "Fuel Cell Optimization Platform",
-    "description": "A full-stack application for simulating and optimizing fuel cell performance with an interactive dashboard for visualizing results.",
-    "tags": ["React", "Python", "TensorFlow", "Flask", "D3.js"],
+    "id": "music-line",
+    "title": "MusicLine: Collaborative Music Timeline",
+    "description": "A Next.js application that enables friends to share and discover music through a collaborative timeline with Spotify integration.",
+    "tags": ["Next.js", "React", "TypeScript", "Supabase", "Spotify API"],
+    "category": ["Full Stack"],
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "githubUrl": "https://github.com/lee-hanhee/music-timeline",
+    "liveUrl": "https://music-timeline.vercel.app/",
+    "markdownFile": "music-line.md"
+  },
+  {
+    "id": "instru-net",
+    "title": "Instru-Net: Instrument Classification System",
+    "description": "A deep learning framework that automatically identifies musical instruments in audio recordings using custom neural networks and YAMNet integration.",
+    "tags": ["Python", "PyTorch", "Deep Learning", "Audio Processing", "YAMNet"],
+    "category": ["ML"],
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "githubUrl": "https://github.com/lee-hanhee/instru-net",
+    "liveUrl": "",
+    "markdownFile": "instru-net.md"
+  },
+  {
+    "id": "fuel-cell-prediction",
+    "title": "Fuel Cell Performance Prediction Tool",
+    "description": "A web application that predicts PEMFC performance metrics based on physical parameters using neural network models with intuitive visualizations.",
+    "tags": ["Python", "Flask", "PyTorch", "Bootstrap", "Plotly.js"],
     "category": ["Full Stack", "ML"],
     "image": "https://images.unsplash.com/photo-1603642546033-a371db95bc42?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "githubUrl": "https://github.com/username/fuel-cell-optimizer",
-    "liveUrl": "https://fuel-cell-optimizer.example.com",
-    "markdownFile": "fuel-cell.md"
+    "githubUrl": "https://github.com/lee-hanhee/fuel-cell",
+    "liveUrl": "https://fuel-cell-prediction.vercel.app/",
+    "markdownFile": "fuel-cell-prediction.md"
   },
   {
-    "id": "study-tool",
-    "title": "AI-Powered Study Tool",
-    "description": "An intelligent application that uses natural language processing to generate practice questions and provide personalized learning recommendations.",
-    "tags": ["React", "Python", "TensorFlow", "NLP", "Flask"],
+    "id": "smart-fit",
+    "title": "Smart Fit: Intelligent Workout Tracker",
+    "description": "A machine learning system that classifies weightlifting exercises and counts repetitions using motion sensor data for automated workout tracking.",
+    "tags": ["Python", "PyTorch", "Machine Learning", "Signal Processing"],
     "category": ["ML"],
-    "image": "https://images.unsplash.com/photo-1610484826967-09c5720778c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "githubUrl": "https://github.com/username/study-tool",
-    "liveUrl": "https://ai-study-tool.example.com",
-    "markdownFile": "study-tool.md"
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "githubUrl": "https://github.com/lee-hanhee/FitnessTracker",
+    "liveUrl": "",
+    "markdownFile": "smart-fit.md"
   },
   {
-    "id": "e-commerce",
-    "title": "E-Commerce Platform",
-    "description": "A complete e-commerce solution with product listings, shopping cart functionality, user authentication, and payment processing.",
-    "tags": ["React", "Node.js", "MongoDB", "Express", "Redux"],
-    "category": ["Full Stack"],
-    "image": "https://images.unsplash.com/photo-1523475496246-9e3d81c80dc4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "githubUrl": "https://github.com/username/e-commerce",
-    "liveUrl": "https://modern-shop.example.com",
-    "markdownFile": "e-commerce.md"
-  },
-  {
-    "id": "data-visualization",
-    "title": "Interactive Data Visualization Dashboard",
-    "description": "A dashboard for visualizing complex datasets with customizable charts, filters, and real-time updates.",
-    "tags": ["React", "D3.js", "Express", "Node.js", "Socket.io"],
-    "category": ["Full Stack"],
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "githubUrl": "https://github.com/username/data-viz",
-    "liveUrl": "https://data-viz-dashboard.example.com",
-    "markdownFile": "data-viz.md"
-  },
-  {
-    "id": "neural-network",
-    "title": "Neural Network from Scratch",
-    "description": "A neural network implementation built from scratch using only NumPy, with visualizations to explain the underlying concepts.",
-    "tags": ["Python", "NumPy", "Matplotlib", "Jupyter"],
-    "category": ["ML", "Coursework"],
-    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "githubUrl": "https://github.com/username/neural-network",
-    "markdownFile": "neural-network.md"
-  },
-  {
-    "id": "algo-visualizer",
-    "title": "Algorithm Visualizer",
-    "description": "An interactive web application that visualizes various algorithms including sorting, pathfinding, and graph algorithms.",
-    "tags": ["React", "JavaScript", "CSS", "Algorithm"],
+    "id": "adaptive-daylight",
+    "title": "Adaptive Daylight Harvesting System",
+    "description": "An intelligent lighting control system that optimizes energy usage by dynamically adjusting LED brightness and switching between power sources.",
+    "tags": ["Python", "Microcontroller", "Electronics", "CAD", "Energy Efficiency"],
     "category": ["Coursework"],
-    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "githubUrl": "https://github.com/username/algo-visualizer",
-    "liveUrl": "https://algorithm-viz.example.com",
-    "markdownFile": "algo-visualizer.md"
+    "image": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "githubUrl": "",
+    "liveUrl": "",
+    "markdownFile": "adaptive-daylight.md"
+  },
+  {
+    "id": "seam-carving",
+    "title": "Seam Carving: Content-Aware Image Resizing",
+    "description": "An implementation of the seam carving algorithm that intelligently resizes images while preserving important visual elements.",
+    "tags": ["C", "Algorithms", "Image Processing", "Dynamic Programming"],
+    "category": ["Coursework"],
+    "image": "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "githubUrl": "https://github.com/lee-hanhee/seam-carving",
+    "liveUrl": "https://seam-carving-phi.vercel.app/",
+    "markdownFile": "seam-carving.md"
+  },
+  {
+    "id": "autocomplete-query",
+    "title": "Autocomplete Query System",
+    "description": "An efficient algorithm that suggests completions for partial text input using binary search and weighted ranking of results.",
+    "tags": ["C", "Binary Search", "Data Structures", "Text Processing"],
+    "category": ["Coursework"],
+    "image": "https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "githubUrl": "https://github.com/lee-hanhee/auto-complete",
+    "liveUrl": "",
+    "markdownFile": "autocomplete-query.md"
   }
 ]
