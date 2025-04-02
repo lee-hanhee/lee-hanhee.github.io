@@ -2,24 +2,19 @@ import { useState, useEffect } from "react";
 import skillsData from "../data/skills.json";
 
 const SkillSection = () => {
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState("Languages");
   const [filteredSkills, setFilteredSkills] = useState([]);
 
   // Get unique categories from skills data
   const categories = [
-    "All",
     ...new Set(skillsData.map((skill) => skill.category)),
   ];
 
   // Filter skills when category changes
   useEffect(() => {
-    if (selectedCategory === "All") {
-      setFilteredSkills(skillsData);
-    } else {
-      setFilteredSkills(
-        skillsData.filter((skill) => skill.category === selectedCategory)
-      );
-    }
+    setFilteredSkills(
+      skillsData.filter((skill) => skill.category === selectedCategory)
+    );
   }, [selectedCategory]);
 
   return (

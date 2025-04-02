@@ -10,12 +10,8 @@ const Experiences = () => {
       location: "Toronto, ON",
       period: "January - April 2025",
       description:
-        "Lead development of full-stack applications using React, Node.js, and AWS. Mentored junior developers and implemented CI/CD pipelines to improve deployment efficiency.",
+        "",
       responsibilities: [
-        "Architected and developed scalable microservices",
-        "Collaborated with cross-functional teams to deliver features on time",
-        "Improved application performance by 40% through code optimization",
-        "Implemented automated testing strategies increasing code coverage by 30%",
       ],
     },
     {
@@ -25,12 +21,8 @@ const Experiences = () => {
       location: "Singapore",
       period: "May - August 2024",
       description:
-        "Developed and deployed machine learning models for predicting customer behavior and business trends. Worked with large datasets and created data pipelines.",
+        "",
       responsibilities: [
-        "Built and trained deep learning models using PyTorch and TensorFlow",
-        "Created ETL pipelines for processing large datasets",
-        "Developed API endpoints for model inference",
-        "Collaborated with data scientists to improve model accuracy",
       ],
     },
   ];
@@ -81,9 +73,6 @@ const Experiences = () => {
                 </p>
 
                 <div>
-                  <h3 className="text-lg font-semibold mb-2 text-gray-800 dark:text-gray-200 transition-colors duration-300">
-                    Key Responsibilities:
-                  </h3>
                   <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1 transition-colors duration-300">
                     {experience.responsibilities.map(
                       (responsibility, index) => (

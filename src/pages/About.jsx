@@ -16,7 +16,7 @@ const About = () => {
 
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8 mb-8 transition-colors duration-300">
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 transition-colors duration-300">
-              Hello! I'm Hanhee Lee, a machine learning/full-stack developer based in Toronto, ON. Currently, I'm working on the EngSci Cheatcode project to help EngSci studnets succeed and be able to secure internships rather 
+              Hello! I'm Hanhee Lee, a 3rd year undergraduate student at the University of Toronto. Currently, I'm working on the EngSci Cheatcode project to help EngSci students succeed and be able to secure internships rather 
               than stuggle with the course load. 
             </p>
           </div>
@@ -34,7 +34,7 @@ const About = () => {
                 University of Toronto, 2022-2026 + PEY Co-op
               </p>
               <p className="text-gray-700 dark:text-gray-300 transition-colors duration-300">
-                Specialized in artificial intelligence and software engineering.
+                Specialized in machine intelligence.
                 Graduated with honors.
               </p>
             </div>
