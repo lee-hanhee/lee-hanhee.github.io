@@ -2,7 +2,7 @@
   {
     "id": "music-line",
     "title": "MusicLine: Collaborative Music Timeline",
-    "description": "A Next.js application that enables friends to share and discover music through a collaborative timeline with Spotify integration.",
+    "description": "Next.js application that enables friends to share music through a music timeline with Spotify.",
     "tags": ["Next.js", "React", "TypeScript", "Supabase", "Spotify API"],
     "category": ["Full Stack"],
     "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -13,7 +13,7 @@
   {
     "id": "instru-net",
     "title": "Instru-Net: Instrument Classification System",
-    "description": "A deep learning framework that automatically identifies musical instruments in audio recordings using custom neural networks and YAMNet integration.",
+    "description": "Deep learning framework that identifies musical instruments using spectrograms in music.",
     "tags": ["Python", "PyTorch", "Deep Learning", "Audio Processing", "YAMNet"],
     "category": ["ML"],
     "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -24,7 +24,7 @@
   {
     "id": "fuel-cell-prediction",
     "title": "Fuel Cell Performance Prediction Tool",
-    "description": "A web application that predicts PEMFC performance metrics based on physical parameters using neural network models with intuitive visualizations.",
+    "description": "Web application with two MLPs to predict PEMFC performance metrics and visualizations.",
     "tags": ["Python", "Flask", "PyTorch", "Bootstrap", "Plotly.js"],
     "category": ["Full Stack", "ML"],
     "image": "https://images.unsplash.com/photo-1603642546033-a371db95bc42?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -35,7 +35,7 @@
   {
     "id": "smart-fit",
     "title": "Smart Fit: Intelligent Workout Tracker",
-    "description": "A machine learning system that classifies weightlifting exercises and counts repetitions using motion sensor data for automated workout tracking.",
+    "description": "Machine learning system that classifies weightlifting exercises using motion sensor data.",
     "tags": ["Python", "PyTorch", "Machine Learning", "Signal Processing"],
     "category": ["ML"],
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -46,7 +46,7 @@
   {
     "id": "adaptive-daylight",
     "title": "Adaptive Daylight Harvesting System",
-    "description": "An intelligent lighting control system that optimizes energy usage by dynamically adjusting LED brightness and switching between power sources.",
+    "description": "Adaptive lighting control system that dynamically adjusts LED brightness and switches between power sources.",
     "tags": ["Python", "Microcontroller", "Electronics", "CAD", "Energy Efficiency"],
     "category": ["Coursework"],
     "image": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -57,7 +57,7 @@
   {
     "id": "seam-carving",
     "title": "Seam Carving: Content-Aware Image Resizing",
-    "description": "An implementation of the seam carving algorithm that intelligently resizes images while preserving important visual elements.",
+    "description": "Seam carving algorithm that resizes images while preserving important visual elements.",
     "tags": ["C", "Algorithms", "Image Processing", "Dynamic Programming"],
     "category": ["Coursework"],
     "image": "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -68,7 +68,7 @@
   {
     "id": "autocomplete-query",
     "title": "Autocomplete Query System",
-    "description": "An efficient algorithm that suggests completions for partial text input using binary search and weighted ranking of results.",
+    "description": "Binary search to suggest completions for partial text input using weighted ranking of results.",
     "tags": ["C", "Binary Search", "Data Structures", "Text Processing"],
     "category": ["Coursework"],
     "image": "https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
