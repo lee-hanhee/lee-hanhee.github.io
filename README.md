@@ -127,11 +127,3 @@ npm run deploy
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## �� Contact
-
-Feel free to reach out if you have any questions or just want to connect:
-
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- GitHub: [Your GitHub](https://github.com/yourusername)
