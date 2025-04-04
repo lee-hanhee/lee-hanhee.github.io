@@ -38,14 +38,6 @@ const Navbar = () => {
             Experiences
           </Link>
           <Link
-            to="/about"
-            className={`text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-300 ${isActive(
-              "/about"
-            )}`}
-          >
-            About Me
-          </Link>
-          <Link
             to="/cv"
             className={`text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-300 ${isActive(
               "/cv"
